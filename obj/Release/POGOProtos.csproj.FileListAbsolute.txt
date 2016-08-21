@@ -2,6 +2,5 @@ C:\Users\Brian\Documents\Visual Studio 2015\Projects\RocketBot\POGOProtos\bin\Re
 C:\Users\Brian\Documents\Visual Studio 2015\Projects\RocketBot\POGOProtos\bin\Release\POGOProtos.pdb
 C:\Users\Brian\Documents\Visual Studio 2015\Projects\RocketBot\POGOProtos\bin\Release\Google.Protobuf.dll
 C:\Users\Brian\Documents\Visual Studio 2015\Projects\RocketBot\POGOProtos\bin\Release\Google.Protobuf.xml
-C:\Users\Brian\Documents\Visual Studio 2015\Projects\RocketBot\POGOProtos\obj\Release\POGOProtos.csprojResolveAssemblyReference.cache
 C:\Users\Brian\Documents\Visual Studio 2015\Projects\RocketBot\POGOProtos\obj\Release\POGOProtos.dll
 C:\Users\Brian\Documents\Visual Studio 2015\Projects\RocketBot\POGOProtos\obj\Release\POGOProtos.pdb
