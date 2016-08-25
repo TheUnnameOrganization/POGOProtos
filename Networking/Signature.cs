@@ -1136,7 +1136,7 @@ namespace POGOProtos.Networking
                 }
 
                 /// <summary>Field number for the "snr" field.</summary>
-                public const int SnrFieldNumber = 3;
+                public const int SnrFieldNumber = 5;
                 private static readonly pb::FieldCodec<float> _repeated_snr_codec
                     = pb::FieldCodec.ForFloat(26);
                 private readonly pbc::RepeatedField<float> snr_ = new pbc::RepeatedField<float>();
@@ -1147,7 +1147,7 @@ namespace POGOProtos.Networking
                 }
 
                 /// <summary>Field number for the "azimuth" field.</summary>
-                public const int AzimuthFieldNumber = 4;
+                public const int AzimuthFieldNumber = 3;
                 private static readonly pb::FieldCodec<float> _repeated_azimuth_codec
                     = pb::FieldCodec.ForFloat(34);
                 private readonly pbc::RepeatedField<float> azimuth_ = new pbc::RepeatedField<float>();
@@ -1158,7 +1158,7 @@ namespace POGOProtos.Networking
                 }
 
                 /// <summary>Field number for the "elevation" field.</summary>
-                public const int ElevationFieldNumber = 5;
+                public const int ElevationFieldNumber = 4;
                 private static readonly pb::FieldCodec<float> _repeated_elevation_codec
                     = pb::FieldCodec.ForFloat(42);
                 private readonly pbc::RepeatedField<float> elevation_ = new pbc::RepeatedField<float>();
