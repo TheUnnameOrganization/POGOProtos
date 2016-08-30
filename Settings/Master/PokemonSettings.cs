@@ -23,15 +23,15 @@ namespace POGOProtos.Settings.Master {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CjBQT0dPUHJvdG9zL1NldHRpbmdzL01hc3Rlci9Qb2tlbW9uU2V0dGluZ3Mu",
-            "cHJvdG8SGlBPR09Qcm90b3MuU2V0dGluZ3MuTWFzdGVyGiBQT0dPUHJvdG9z",
-            "L0VudW1zL1Bva2Vtb25JZC5wcm90bxokUE9HT1Byb3Rvcy9FbnVtcy9Qb2tl",
-            "bW9uUmFyaXR5LnByb3RvGiJQT0dPUHJvdG9zL0VudW1zL1Bva2Vtb25UeXBl",
-            "LnByb3RvGiJQT0dPUHJvdG9zL0VudW1zL1Bva2Vtb25Nb3ZlLnByb3RvGiZQ",
-            "T0dPUHJvdG9zL0VudW1zL1Bva2Vtb25GYW1pbHlJZC5wcm90bxo4UE9HT1By",
-            "b3Rvcy9TZXR0aW5ncy9NYXN0ZXIvUG9rZW1vbi9TdGF0c0F0dHJpYnV0ZXMu",
-            "cHJvdG8aOVBPR09Qcm90b3MvU2V0dGluZ3MvTWFzdGVyL1Bva2Vtb24vQ2Ft",
-            "ZXJhQXR0cmlidXRlcy5wcm90bxo8UE9HT1Byb3Rvcy9TZXR0aW5ncy9NYXN0",
-            "ZXIvUG9rZW1vbi9FbmNvdW50ZXJBdHRyaWJ1dGVzLnByb3RvIs4ICg9Qb2tl",
+            "cHJvdG8SGlBPR09Qcm90b3MuU2V0dGluZ3MuTWFzdGVyGiZQT0dPUHJvdG9z",
+            "L0VudW1zL1Bva2Vtb25GYW1pbHlJZC5wcm90bxogUE9HT1Byb3Rvcy9FbnVt",
+            "cy9Qb2tlbW9uSWQucHJvdG8aIlBPR09Qcm90b3MvRW51bXMvUG9rZW1vbk1v",
+            "dmUucHJvdG8aJFBPR09Qcm90b3MvRW51bXMvUG9rZW1vblJhcml0eS5wcm90",
+            "bxoiUE9HT1Byb3Rvcy9FbnVtcy9Qb2tlbW9uVHlwZS5wcm90bxo5UE9HT1By",
+            "b3Rvcy9TZXR0aW5ncy9NYXN0ZXIvUG9rZW1vbi9DYW1lcmFBdHRyaWJ1dGVz",
+            "LnByb3RvGjxQT0dPUHJvdG9zL1NldHRpbmdzL01hc3Rlci9Qb2tlbW9uL0Vu",
+            "Y291bnRlckF0dHJpYnV0ZXMucHJvdG8aOFBPR09Qcm90b3MvU2V0dGluZ3Mv",
+            "TWFzdGVyL1Bva2Vtb24vU3RhdHNBdHRyaWJ1dGVzLnByb3RvIs4ICg9Qb2tl",
             "bW9uU2V0dGluZ3MSLwoKcG9rZW1vbl9pZBgBIAEoDjIbLlBPR09Qcm90b3Mu",
             "RW51bXMuUG9rZW1vbklkEhMKC21vZGVsX3NjYWxlGAMgASgCEisKBHR5cGUY",
             "BCABKA4yHS5QT0dPUHJvdG9zLkVudW1zLlBva2Vtb25UeXBlEi0KBnR5cGVf",
@@ -58,7 +58,7 @@ namespace POGOProtos.Settings.Master {
             "TUVESVVNEAASEgoOQlVERFlfU0hPVUxERVIQARINCglCVUREWV9CSUcQAhIQ",
             "CgxCVUREWV9GTFlJTkcQA2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::POGOProtos.Enums.PokemonIdReflection.Descriptor, global::POGOProtos.Enums.PokemonRarityReflection.Descriptor, global::POGOProtos.Enums.PokemonTypeReflection.Descriptor, global::POGOProtos.Enums.PokemonMoveReflection.Descriptor, global::POGOProtos.Enums.PokemonFamilyIdReflection.Descriptor, global::POGOProtos.Settings.Master.Pokemon.StatsAttributesReflection.Descriptor, global::POGOProtos.Settings.Master.Pokemon.CameraAttributesReflection.Descriptor, global::POGOProtos.Settings.Master.Pokemon.EncounterAttributesReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::POGOProtos.Enums.PokemonFamilyIdReflection.Descriptor, global::POGOProtos.Enums.PokemonIdReflection.Descriptor, global::POGOProtos.Enums.PokemonMoveReflection.Descriptor, global::POGOProtos.Enums.PokemonRarityReflection.Descriptor, global::POGOProtos.Enums.PokemonTypeReflection.Descriptor, global::POGOProtos.Settings.Master.Pokemon.CameraAttributesReflection.Descriptor, global::POGOProtos.Settings.Master.Pokemon.EncounterAttributesReflection.Descriptor, global::POGOProtos.Settings.Master.Pokemon.StatsAttributesReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Settings.Master.PokemonSettings), global::POGOProtos.Settings.Master.PokemonSettings.Parser, new[]{ "PokemonId", "ModelScale", "Type", "Type2", "Camera", "Encounter", "Stats", "QuickMoves", "CinematicMoves", "AnimationTime", "EvolutionIds", "EvolutionPips", "Rarity", "PokedexHeightM", "PokedexWeightKg", "ParentPokemonId", "HeightStdDev", "WeightStdDev", "KmDistanceToHatch", "FamilyId", "CandyToEvolve", "KmBuddyDistance", "BuddySize" }, null, new[]{ typeof(global::POGOProtos.Settings.Master.PokemonSettings.Types.BuddySize) }, null)
           }));

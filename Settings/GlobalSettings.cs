@@ -24,10 +24,10 @@ namespace POGOProtos.Settings {
           string.Concat(
             "CihQT0dPUHJvdG9zL1NldHRpbmdzL0dsb2JhbFNldHRpbmdzLnByb3RvEhNQ",
             "T0dPUHJvdG9zLlNldHRpbmdzGiZQT0dPUHJvdG9zL1NldHRpbmdzL0ZvcnRT",
-            "ZXR0aW5ncy5wcm90bxolUE9HT1Byb3Rvcy9TZXR0aW5ncy9NYXBTZXR0aW5n",
+            "ZXR0aW5ncy5wcm90bxolUE9HT1Byb3Rvcy9TZXR0aW5ncy9HcHNTZXR0aW5n",
+            "cy5wcm90bxorUE9HT1Byb3Rvcy9TZXR0aW5ncy9JbnZlbnRvcnlTZXR0aW5n",
             "cy5wcm90bxonUE9HT1Byb3Rvcy9TZXR0aW5ncy9MZXZlbFNldHRpbmdzLnBy",
-            "b3RvGitQT0dPUHJvdG9zL1NldHRpbmdzL0ludmVudG9yeVNldHRpbmdzLnBy",
-            "b3RvGiVQT0dPUHJvdG9zL1NldHRpbmdzL0dwc1NldHRpbmdzLnByb3RvItoC",
+            "b3RvGiVQT0dPUHJvdG9zL1NldHRpbmdzL01hcFNldHRpbmdzLnByb3RvItoC",
             "Cg5HbG9iYWxTZXR0aW5ncxI4Cg1mb3J0X3NldHRpbmdzGAIgASgLMiEuUE9H",
             "T1Byb3Rvcy5TZXR0aW5ncy5Gb3J0U2V0dGluZ3MSNgoMbWFwX3NldHRpbmdz",
             "GAMgASgLMiAuUE9HT1Byb3Rvcy5TZXR0aW5ncy5NYXBTZXR0aW5ncxI6Cg5s",
@@ -37,7 +37,7 @@ namespace POGOProtos.Settings {
             "Y2xpZW50X3ZlcnNpb24YBiABKAkSNgoMZ3BzX3NldHRpbmdzGAcgASgLMiAu",
             "UE9HT1Byb3Rvcy5TZXR0aW5ncy5HcHNTZXR0aW5nc2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::POGOProtos.Settings.FortSettingsReflection.Descriptor, global::POGOProtos.Settings.MapSettingsReflection.Descriptor, global::POGOProtos.Settings.LevelSettingsReflection.Descriptor, global::POGOProtos.Settings.InventorySettingsReflection.Descriptor, global::POGOProtos.Settings.GpsSettingsReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::POGOProtos.Settings.FortSettingsReflection.Descriptor, global::POGOProtos.Settings.GpsSettingsReflection.Descriptor, global::POGOProtos.Settings.InventorySettingsReflection.Descriptor, global::POGOProtos.Settings.LevelSettingsReflection.Descriptor, global::POGOProtos.Settings.MapSettingsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Settings.GlobalSettings), global::POGOProtos.Settings.GlobalSettings.Parser, new[]{ "FortSettings", "MapSettings", "LevelSettings", "InventorySettings", "MinimumClientVersion", "GpsSettings" }, null, null, null)
           }));

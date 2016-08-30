@@ -23,10 +23,10 @@ namespace POGOProtos.Data.Logs {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CilQT0dPUHJvdG9zL0RhdGEvTG9ncy9BY3Rpb25Mb2dFbnRyeS5wcm90bxIU",
-            "UE9HT1Byb3Rvcy5EYXRhLkxvZ3MaL1BPR09Qcm90b3MvRGF0YS9Mb2dzL0Nh",
-            "dGNoUG9rZW1vbkxvZ0VudHJ5LnByb3RvGi1QT0dPUHJvdG9zL0RhdGEvTG9n",
-            "cy9Gb3J0U2VhcmNoTG9nRW50cnkucHJvdG8aL1BPR09Qcm90b3MvRGF0YS9M",
-            "b2dzL0J1ZGR5UG9rZW1vbkxvZ0VudHJ5LnByb3RvIooCCg5BY3Rpb25Mb2dF",
+            "UE9HT1Byb3Rvcy5EYXRhLkxvZ3MaL1BPR09Qcm90b3MvRGF0YS9Mb2dzL0J1",
+            "ZGR5UG9rZW1vbkxvZ0VudHJ5LnByb3RvGi9QT0dPUHJvdG9zL0RhdGEvTG9n",
+            "cy9DYXRjaFBva2Vtb25Mb2dFbnRyeS5wcm90bxotUE9HT1Byb3Rvcy9EYXRh",
+            "L0xvZ3MvRm9ydFNlYXJjaExvZ0VudHJ5LnByb3RvIooCCg5BY3Rpb25Mb2dF",
             "bnRyeRIUCgx0aW1lc3RhbXBfbXMYASABKAMSDQoFc2ZpZGEYAiABKAgSQwoN",
             "Y2F0Y2hfcG9rZW1vbhgDIAEoCzIqLlBPR09Qcm90b3MuRGF0YS5Mb2dzLkNh",
             "dGNoUG9rZW1vbkxvZ0VudHJ5SAASPwoLZm9ydF9zZWFyY2gYBCABKAsyKC5Q",
@@ -34,7 +34,7 @@ namespace POGOProtos.Data.Logs {
             "dWRkeV9wb2tlbW9uGAUgASgLMiouUE9HT1Byb3Rvcy5EYXRhLkxvZ3MuQnVk",
             "ZHlQb2tlbW9uTG9nRW50cnlIAEIICgZBY3Rpb25iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::POGOProtos.Data.Logs.CatchPokemonLogEntryReflection.Descriptor, global::POGOProtos.Data.Logs.FortSearchLogEntryReflection.Descriptor, global::POGOProtos.Data.Logs.BuddyPokemonLogEntryReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::POGOProtos.Data.Logs.BuddyPokemonLogEntryReflection.Descriptor, global::POGOProtos.Data.Logs.CatchPokemonLogEntryReflection.Descriptor, global::POGOProtos.Data.Logs.FortSearchLogEntryReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Data.Logs.ActionLogEntry), global::POGOProtos.Data.Logs.ActionLogEntry.Parser, new[]{ "TimestampMs", "Sfida", "CatchPokemon", "FortSearch", "BuddyPokemon" }, new[]{ "Action" }, null, null)
           }));
