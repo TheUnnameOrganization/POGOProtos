@@ -23,9 +23,9 @@ namespace POGOProtos.Settings.Master {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Ci9QT0dPUHJvdG9zL1NldHRpbmdzL01hc3Rlci9DYW1lcmFTZXR0aW5ncy5w",
-            "cm90bxIaUE9HT1Byb3Rvcy5TZXR0aW5ncy5NYXN0ZXIaKlBPR09Qcm90b3Mv",
-            "RW51bXMvQ2FtZXJhSW50ZXJwb2xhdGlvbi5wcm90bxojUE9HT1Byb3Rvcy9F",
-            "bnVtcy9DYW1lcmFUYXJnZXQucHJvdG8i1wMKDkNhbWVyYVNldHRpbmdzEhMK",
+            "cm90bxIaUE9HT1Byb3Rvcy5TZXR0aW5ncy5NYXN0ZXIaI1BPR09Qcm90b3Mv",
+            "RW51bXMvQ2FtZXJhVGFyZ2V0LnByb3RvGipQT0dPUHJvdG9zL0VudW1zL0Nh",
+            "bWVyYUludGVycG9sYXRpb24ucHJvdG8i1wMKDkNhbWVyYVNldHRpbmdzEhMK",
             "C25leHRfY2FtZXJhGAEgASgJEjwKDWludGVycG9sYXRpb24YAiADKA4yJS5Q",
             "T0dPUHJvdG9zLkVudW1zLkNhbWVyYUludGVycG9sYXRpb24SMwoLdGFyZ2V0",
             "X3R5cGUYAyADKA4yHi5QT0dPUHJvdG9zLkVudW1zLkNhbWVyYVRhcmdldBIV",
@@ -38,7 +38,7 @@ namespace POGOProtos.Settings.Master {
             "FgoOaGVpZ2h0X3BlcmNlbnQYDyADKAISFgoOdmVydF9jdHJfcmF0aW8YECAD",
             "KAJiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::POGOProtos.Enums.CameraInterpolationReflection.Descriptor, global::POGOProtos.Enums.CameraTargetReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::POGOProtos.Enums.CameraTargetReflection.Descriptor, global::POGOProtos.Enums.CameraInterpolationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Settings.Master.CameraSettings), global::POGOProtos.Settings.Master.CameraSettings.Parser, new[]{ "NextCamera", "Interpolation", "TargetType", "EaseInSpeed", "EastOutSpeed", "DurationSeconds", "WaitSeconds", "TransitionSeconds", "AngleDegree", "AngleOffsetDegree", "PitchDegree", "PitchOffsetDegree", "RollDegree", "DistanceMeters", "HeightPercent", "VertCtrRatio" }, null, null, null)
           }));

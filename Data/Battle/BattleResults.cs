@@ -23,16 +23,16 @@ namespace POGOProtos.Data.Battle {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CipQT0dPUHJvdG9zL0RhdGEvQmF0dGxlL0JhdHRsZVJlc3VsdHMucHJvdG8S",
-            "FlBPR09Qcm90b3MuRGF0YS5CYXR0bGUaLlBPR09Qcm90b3MvRGF0YS9CYXR0",
-            "bGUvQmF0dGxlUGFydGljaXBhbnQucHJvdG8aIlBPR09Qcm90b3MvRGF0YS9H",
-            "eW0vR3ltU3RhdGUucHJvdG8i3gEKDUJhdHRsZVJlc3VsdHMSMAoJZ3ltX3N0",
+            "FlBPR09Qcm90b3MuRGF0YS5CYXR0bGUaIlBPR09Qcm90b3MvRGF0YS9HeW0v",
+            "R3ltU3RhdGUucHJvdG8aLlBPR09Qcm90b3MvRGF0YS9CYXR0bGUvQmF0dGxl",
+            "UGFydGljaXBhbnQucHJvdG8i3gEKDUJhdHRsZVJlc3VsdHMSMAoJZ3ltX3N0",
             "YXRlGAEgASgLMh0uUE9HT1Byb3Rvcy5EYXRhLkd5bS5HeW1TdGF0ZRI8Cglh",
             "dHRhY2tlcnMYAiADKAsyKS5QT0dPUHJvdG9zLkRhdGEuQmF0dGxlLkJhdHRs",
             "ZVBhcnRpY2lwYW50EiEKGXBsYXllcl9leHBlcmllbmNlX2F3YXJkZWQYAyAD",
             "KAUSIAoYbmV4dF9kZWZlbmRlcl9wb2tlbW9uX2lkGAQgASgDEhgKEGd5bV9w",
             "b2ludHNfZGVsdGEYBSABKAViBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::POGOProtos.Data.Battle.BattleParticipantReflection.Descriptor, global::POGOProtos.Data.Gym.GymStateReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::POGOProtos.Data.Gym.GymStateReflection.Descriptor, global::POGOProtos.Data.Battle.BattleParticipantReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Data.Battle.BattleResults), global::POGOProtos.Data.Battle.BattleResults.Parser, new[]{ "GymState", "Attackers", "PlayerExperienceAwarded", "NextDefenderPokemonId", "GymPointsDelta" }, null, null, null)
           }));

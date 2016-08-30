@@ -23,10 +23,10 @@ namespace POGOProtos.Data.Battle {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CilQT0dPUHJvdG9zL0RhdGEvQmF0dGxlL0JhdHRsZUFjdGlvbi5wcm90bxIW",
-            "UE9HT1Byb3Rvcy5EYXRhLkJhdHRsZRotUE9HT1Byb3Rvcy9EYXRhL0JhdHRs",
-            "ZS9CYXR0bGVBY3Rpb25UeXBlLnByb3RvGi5QT0dPUHJvdG9zL0RhdGEvQmF0",
-            "dGxlL0JhdHRsZVBhcnRpY2lwYW50LnByb3RvGipQT0dPUHJvdG9zL0RhdGEv",
-            "QmF0dGxlL0JhdHRsZVJlc3VsdHMucHJvdG8ihQQKDEJhdHRsZUFjdGlvbhI2",
+            "UE9HT1Byb3Rvcy5EYXRhLkJhdHRsZRoqUE9HT1Byb3Rvcy9EYXRhL0JhdHRs",
+            "ZS9CYXR0bGVSZXN1bHRzLnByb3RvGi1QT0dPUHJvdG9zL0RhdGEvQmF0dGxl",
+            "L0JhdHRsZUFjdGlvblR5cGUucHJvdG8aLlBPR09Qcm90b3MvRGF0YS9CYXR0",
+            "bGUvQmF0dGxlUGFydGljaXBhbnQucHJvdG8ihQQKDEJhdHRsZUFjdGlvbhI2",
             "CgRUeXBlGAEgASgOMiguUE9HT1Byb3Rvcy5EYXRhLkJhdHRsZS5CYXR0bGVB",
             "Y3Rpb25UeXBlEhcKD2FjdGlvbl9zdGFydF9tcxgCIAEoAxITCgtkdXJhdGlv",
             "bl9tcxgDIAEoBRIUCgxlbmVyZ3lfZGVsdGEYBSABKAUSFgoOYXR0YWNrZXJf",
@@ -40,7 +40,7 @@ namespace POGOProtos.Data.Battle {
             "QmF0dGxlLkJhdHRsZVBhcnRpY2lwYW50EhkKEXRhcmdldF9wb2tlbW9uX2lk",
             "GA4gASgGYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::POGOProtos.Data.Battle.BattleActionTypeReflection.Descriptor, global::POGOProtos.Data.Battle.BattleParticipantReflection.Descriptor, global::POGOProtos.Data.Battle.BattleResultsReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::POGOProtos.Data.Battle.BattleResultsReflection.Descriptor, global::POGOProtos.Data.Battle.BattleActionTypeReflection.Descriptor, global::POGOProtos.Data.Battle.BattleParticipantReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Data.Battle.BattleAction), global::POGOProtos.Data.Battle.BattleAction.Parser, new[]{ "Type", "ActionStartMs", "DurationMs", "EnergyDelta", "AttackerIndex", "TargetIndex", "ActivePokemonId", "PlayerJoined", "BattleResults", "DamageWindowsStartTimestampMss", "DamageWindowsEndTimestampMss", "PlayerLeft", "TargetPokemonId" }, null, null, null)
           }));

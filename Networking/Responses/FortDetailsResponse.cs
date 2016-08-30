@@ -25,9 +25,9 @@ namespace POGOProtos.Networking.Responses {
             "CjlQT0dPUHJvdG9zL05ldHdvcmtpbmcvUmVzcG9uc2VzL0ZvcnREZXRhaWxz",
             "UmVzcG9uc2UucHJvdG8SH1BPR09Qcm90b3MuTmV0d29ya2luZy5SZXNwb25z",
             "ZXMaIVBPR09Qcm90b3MvRGF0YS9Qb2tlbW9uRGF0YS5wcm90bxogUE9HT1By",
-            "b3Rvcy9FbnVtcy9UZWFtQ29sb3IucHJvdG8aJlBPR09Qcm90b3MvTWFwL0Zv",
-            "cnQvRm9ydE1vZGlmaWVyLnByb3RvGiJQT0dPUHJvdG9zL01hcC9Gb3J0L0Zv",
-            "cnRUeXBlLnByb3RvIvwCChNGb3J0RGV0YWlsc1Jlc3BvbnNlEg8KB2ZvcnRf",
+            "b3Rvcy9FbnVtcy9UZWFtQ29sb3IucHJvdG8aIlBPR09Qcm90b3MvTWFwL0Zv",
+            "cnQvRm9ydFR5cGUucHJvdG8aJlBPR09Qcm90b3MvTWFwL0ZvcnQvRm9ydE1v",
+            "ZGlmaWVyLnByb3RvIvwCChNGb3J0RGV0YWlsc1Jlc3BvbnNlEg8KB2ZvcnRf",
             "aWQYASABKAkSLwoKdGVhbV9jb2xvchgCIAEoDjIbLlBPR09Qcm90b3MuRW51",
             "bXMuVGVhbUNvbG9yEjIKDHBva2Vtb25fZGF0YRgDIAEoCzIcLlBPR09Qcm90",
             "b3MuRGF0YS5Qb2tlbW9uRGF0YRIMCgRuYW1lGAQgASgJEhIKCmltYWdlX3Vy",
@@ -37,7 +37,7 @@ namespace POGOProtos.Networking.Responses {
             "CyABKAESEwoLZGVzY3JpcHRpb24YDCABKAkSNAoJbW9kaWZpZXJzGA0gAygL",
             "MiEuUE9HT1Byb3Rvcy5NYXAuRm9ydC5Gb3J0TW9kaWZpZXJiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::POGOProtos.Data.PokemonDataReflection.Descriptor, global::POGOProtos.Enums.TeamColorReflection.Descriptor, global::POGOProtos.Map.Fort.FortModifierReflection.Descriptor, global::POGOProtos.Map.Fort.FortTypeReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::POGOProtos.Data.PokemonDataReflection.Descriptor, global::POGOProtos.Enums.TeamColorReflection.Descriptor, global::POGOProtos.Map.Fort.FortTypeReflection.Descriptor, global::POGOProtos.Map.Fort.FortModifierReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Responses.FortDetailsResponse), global::POGOProtos.Networking.Responses.FortDetailsResponse.Parser, new[]{ "FortId", "TeamColor", "PokemonData", "Name", "ImageUrls", "Fp", "Stamina", "MaxStamina", "Type", "Latitude", "Longitude", "Description", "Modifiers" }, null, null, null)
           }));

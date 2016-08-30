@@ -23,13 +23,13 @@ namespace POGOProtos.Data.Gym {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiJQT0dPUHJvdG9zL0RhdGEvR3ltL0d5bVN0YXRlLnByb3RvEhNQT0dPUHJv",
-            "dG9zLkRhdGEuR3ltGidQT0dPUHJvdG9zL0RhdGEvR3ltL0d5bU1lbWJlcnNo",
-            "aXAucHJvdG8aIlBPR09Qcm90b3MvTWFwL0ZvcnQvRm9ydERhdGEucHJvdG8i",
+            "dG9zLkRhdGEuR3ltGiJQT0dPUHJvdG9zL01hcC9Gb3J0L0ZvcnREYXRhLnBy",
+            "b3RvGidQT0dPUHJvdG9zL0RhdGEvR3ltL0d5bU1lbWJlcnNoaXAucHJvdG8i",
             "dQoIR3ltU3RhdGUSMAoJZm9ydF9kYXRhGAEgASgLMh0uUE9HT1Byb3Rvcy5N",
             "YXAuRm9ydC5Gb3J0RGF0YRI3CgttZW1iZXJzaGlwcxgCIAMoCzIiLlBPR09Q",
             "cm90b3MuRGF0YS5HeW0uR3ltTWVtYmVyc2hpcGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::POGOProtos.Data.Gym.GymMembershipReflection.Descriptor, global::POGOProtos.Map.Fort.FortDataReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::POGOProtos.Map.Fort.FortDataReflection.Descriptor, global::POGOProtos.Data.Gym.GymMembershipReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Data.Gym.GymState), global::POGOProtos.Data.Gym.GymState.Parser, new[]{ "FortData", "Memberships" }, null, null, null)
           }));

@@ -50,7 +50,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Google.Protobuf, Version=3.0.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
-      <HintPath>..\packages\Google.Protobuf.3.0.0\lib\net45\Google.Protobuf.dll</HintPath>
+      <HintPath>$(SolutionDir)\packages\Google.Protobuf.3.0.0-beta4\lib\net45\Google.Protobuf.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -144,15 +144,9 @@
     <Compile Include="Networking\Envelopes\AuthTicket.cs" />
     <Compile Include="Networking\Envelopes\RequestEnvelope.cs" />
     <Compile Include="Networking\Envelopes\ResponseEnvelope.cs" />
-    <Compile Include="Networking\Envelopes\SignalAgglomUpdates.cs" />
-    <Compile Include="Networking\Platform\PlatformRequestType.cs" />
-    <Compile Include="Networking\Platform\Responses\BuyItemAndroidResponse.cs" />
-    <Compile Include="Networking\Platform\Responses\BuyItemPokeCoinsResponse.cs" />
-    <Compile Include="Networking\Platform\Responses\GetStoreItemsResponse.cs" />
-    <Compile Include="Networking\Platform\Responses\SendEncryptedSignatureResponse.cs" />	
-    <Compile Include="Networking\Platform\Requests\BuyItemAndroidRequest.cs" />
-	<Compile Include="Networking\Platform\Requests\BuyItemPokeCoinsRequest.cs" />
-	<Compile Include="Networking\Platform\Requests\SendEncryptedSignatureRequest.cs" />
+    <Compile Include="Networking\Envelopes\Unknown6.cs" />
+    <Compile Include="Networking\Envelopes\Signature.cs" />
+    <Compile Include="Networking\Envelopes\Unknown6Response.cs" />
     <Compile Include="Networking\Requests\Messages\AddFortModifierMessage.cs" />
     <Compile Include="Networking\Requests\Messages\AttackGymMessage.cs" />
     <Compile Include="Networking\Requests\Messages\CatchPokemonMessage.cs" />
@@ -304,9 +298,7 @@
     <Compile Include="Settings\Master\TypeEffectiveSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
