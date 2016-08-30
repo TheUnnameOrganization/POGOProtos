@@ -23,12 +23,12 @@ namespace POGOProtos.Map {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "ChxQT0dPUHJvdG9zL01hcC9NYXBDZWxsLnByb3RvEg5QT0dPUHJvdG9zLk1h",
-            "cBofUE9HT1Byb3Rvcy9NYXAvU3Bhd25Qb2ludC5wcm90bxoiUE9HT1Byb3Rv",
-            "cy9NYXAvRm9ydC9Gb3J0RGF0YS5wcm90bxolUE9HT1Byb3Rvcy9NYXAvRm9y",
-            "dC9Gb3J0U3VtbWFyeS5wcm90bxoqUE9HT1Byb3Rvcy9NYXAvUG9rZW1vbi9O",
-            "ZWFyYnlQb2tlbW9uLnByb3RvGihQT0dPUHJvdG9zL01hcC9Qb2tlbW9uL1dp",
-            "bGRQb2tlbW9uLnByb3RvGidQT0dPUHJvdG9zL01hcC9Qb2tlbW9uL01hcFBv",
-            "a2Vtb24ucHJvdG8igQQKB01hcENlbGwSEgoKczJfY2VsbF9pZBgBIAEoBBIc",
+            "cBoiUE9HT1Byb3Rvcy9NYXAvRm9ydC9Gb3J0RGF0YS5wcm90bxolUE9HT1By",
+            "b3Rvcy9NYXAvRm9ydC9Gb3J0U3VtbWFyeS5wcm90bxonUE9HT1Byb3Rvcy9N",
+            "YXAvUG9rZW1vbi9NYXBQb2tlbW9uLnByb3RvGipQT0dPUHJvdG9zL01hcC9Q",
+            "b2tlbW9uL05lYXJieVBva2Vtb24ucHJvdG8aKFBPR09Qcm90b3MvTWFwL1Bv",
+            "a2Vtb24vV2lsZFBva2Vtb24ucHJvdG8aH1BPR09Qcm90b3MvTWFwL1NwYXdu",
+            "UG9pbnQucHJvdG8igQQKB01hcENlbGwSEgoKczJfY2VsbF9pZBgBIAEoBBIc",
             "ChRjdXJyZW50X3RpbWVzdGFtcF9tcxgCIAEoAxIsCgVmb3J0cxgDIAMoCzId",
             "LlBPR09Qcm90b3MuTWFwLkZvcnQuRm9ydERhdGESMAoMc3Bhd25fcG9pbnRz",
             "GAQgAygLMhouUE9HT1Byb3Rvcy5NYXAuU3Bhd25Qb2ludBIXCg9kZWxldGVk",
@@ -41,7 +41,7 @@ namespace POGOProtos.Map {
             "b24uTWFwUG9rZW1vbhI+Cg9uZWFyYnlfcG9rZW1vbnMYCyADKAsyJS5QT0dP",
             "UHJvdG9zLk1hcC5Qb2tlbW9uLk5lYXJieVBva2Vtb25iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::POGOProtos.Map.SpawnPointReflection.Descriptor, global::POGOProtos.Map.Fort.FortDataReflection.Descriptor, global::POGOProtos.Map.Fort.FortSummaryReflection.Descriptor, global::POGOProtos.Map.Pokemon.NearbyPokemonReflection.Descriptor, global::POGOProtos.Map.Pokemon.WildPokemonReflection.Descriptor, global::POGOProtos.Map.Pokemon.MapPokemonReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::POGOProtos.Map.Fort.FortDataReflection.Descriptor, global::POGOProtos.Map.Fort.FortSummaryReflection.Descriptor, global::POGOProtos.Map.Pokemon.MapPokemonReflection.Descriptor, global::POGOProtos.Map.Pokemon.NearbyPokemonReflection.Descriptor, global::POGOProtos.Map.Pokemon.WildPokemonReflection.Descriptor, global::POGOProtos.Map.SpawnPointReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Map.MapCell), global::POGOProtos.Map.MapCell.Parser, new[]{ "S2CellId", "CurrentTimestampMs", "Forts", "SpawnPoints", "DeletedObjects", "IsTruncatedList", "FortSummaries", "DecimatedSpawnPoints", "WildPokemons", "CatchablePokemons", "NearbyPokemons" }, null, null, null)
           }));
