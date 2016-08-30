@@ -23,14 +23,14 @@ namespace POGOProtos.Data.Gym {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CidQT0dPUHJvdG9zL0RhdGEvR3ltL0d5bU1lbWJlcnNoaXAucHJvdG8SE1BP",
-            "R09Qcm90b3MuRGF0YS5HeW0aMFBPR09Qcm90b3MvRGF0YS9QbGF5ZXIvUGxh",
-            "eWVyUHVibGljUHJvZmlsZS5wcm90bxohUE9HT1Byb3Rvcy9EYXRhL1Bva2Vt",
-            "b25EYXRhLnByb3RvIpABCg1HeW1NZW1iZXJzaGlwEjIKDHBva2Vtb25fZGF0",
+            "R09Qcm90b3MuRGF0YS5HeW0aIVBPR09Qcm90b3MvRGF0YS9Qb2tlbW9uRGF0",
+            "YS5wcm90bxowUE9HT1Byb3Rvcy9EYXRhL1BsYXllci9QbGF5ZXJQdWJsaWNQ",
+            "cm9maWxlLnByb3RvIpABCg1HeW1NZW1iZXJzaGlwEjIKDHBva2Vtb25fZGF0",
             "YRgBIAEoCzIcLlBPR09Qcm90b3MuRGF0YS5Qb2tlbW9uRGF0YRJLChZ0cmFp",
             "bmVyX3B1YmxpY19wcm9maWxlGAIgASgLMisuUE9HT1Byb3Rvcy5EYXRhLlBs",
             "YXllci5QbGF5ZXJQdWJsaWNQcm9maWxlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::POGOProtos.Data.Player.PlayerPublicProfileReflection.Descriptor, global::POGOProtos.Data.PokemonDataReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::POGOProtos.Data.PokemonDataReflection.Descriptor, global::POGOProtos.Data.Player.PlayerPublicProfileReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Data.Gym.GymMembership), global::POGOProtos.Data.Gym.GymMembership.Parser, new[]{ "PokemonData", "TrainerPublicProfile" }, null, null, null)
           }));

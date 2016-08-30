@@ -25,11 +25,11 @@ namespace POGOProtos.Map.Fort {
             "CiJQT0dPUHJvdG9zL01hcC9Gb3J0L0ZvcnREYXRhLnByb3RvEhNQT0dPUHJv",
             "dG9zLk1hcC5Gb3J0GiBQT0dPUHJvdG9zL0VudW1zL1Bva2Vtb25JZC5wcm90",
             "bxogUE9HT1Byb3Rvcy9FbnVtcy9UZWFtQ29sb3IucHJvdG8aJlBPR09Qcm90",
-            "b3MvSW52ZW50b3J5L0l0ZW0vSXRlbUlkLnByb3RvGiZQT0dPUHJvdG9zL01h",
-            "cC9Gb3J0L0ZvcnRMdXJlSW5mby5wcm90bxorUE9HT1Byb3Rvcy9NYXAvRm9y",
-            "dC9Gb3J0UmVuZGVyaW5nVHlwZS5wcm90bxolUE9HT1Byb3Rvcy9NYXAvRm9y",
-            "dC9Gb3J0U3BvbnNvci5wcm90bxoiUE9HT1Byb3Rvcy9NYXAvRm9ydC9Gb3J0",
-            "VHlwZS5wcm90byLeBAoIRm9ydERhdGESCgoCaWQYASABKAkSIgoabGFzdF9t",
+            "b3MvSW52ZW50b3J5L0l0ZW0vSXRlbUlkLnByb3RvGiJQT0dPUHJvdG9zL01h",
+            "cC9Gb3J0L0ZvcnRUeXBlLnByb3RvGiVQT0dPUHJvdG9zL01hcC9Gb3J0L0Zv",
+            "cnRTcG9uc29yLnByb3RvGitQT0dPUHJvdG9zL01hcC9Gb3J0L0ZvcnRSZW5k",
+            "ZXJpbmdUeXBlLnByb3RvGiZQT0dPUHJvdG9zL01hcC9Gb3J0L0ZvcnRMdXJl",
+            "SW5mby5wcm90byLeBAoIRm9ydERhdGESCgoCaWQYASABKAkSIgoabGFzdF9t",
             "b2RpZmllZF90aW1lc3RhbXBfbXMYAiABKAMSEAoIbGF0aXR1ZGUYAyABKAES",
             "EQoJbG9uZ2l0dWRlGAQgASgBEg8KB2VuYWJsZWQYCCABKAgSKwoEdHlwZRgJ",
             "IAEoDjIdLlBPR09Qcm90b3MuTWFwLkZvcnQuRm9ydFR5cGUSMgoNb3duZWRf",
@@ -44,7 +44,7 @@ namespace POGOProtos.Map.Fort {
             "b3J0LkZvcnRTcG9uc29yEj4KDnJlbmRlcmluZ190eXBlGBAgASgOMiYuUE9H",
             "T1Byb3Rvcy5NYXAuRm9ydC5Gb3J0UmVuZGVyaW5nVHlwZWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::POGOProtos.Enums.PokemonIdReflection.Descriptor, global::POGOProtos.Enums.TeamColorReflection.Descriptor, global::POGOProtos.Inventory.Item.ItemIdReflection.Descriptor, global::POGOProtos.Map.Fort.FortLureInfoReflection.Descriptor, global::POGOProtos.Map.Fort.FortRenderingTypeReflection.Descriptor, global::POGOProtos.Map.Fort.FortSponsorReflection.Descriptor, global::POGOProtos.Map.Fort.FortTypeReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::POGOProtos.Enums.PokemonIdReflection.Descriptor, global::POGOProtos.Enums.TeamColorReflection.Descriptor, global::POGOProtos.Inventory.Item.ItemIdReflection.Descriptor, global::POGOProtos.Map.Fort.FortTypeReflection.Descriptor, global::POGOProtos.Map.Fort.FortSponsorReflection.Descriptor, global::POGOProtos.Map.Fort.FortRenderingTypeReflection.Descriptor, global::POGOProtos.Map.Fort.FortLureInfoReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Map.Fort.FortData), global::POGOProtos.Map.Fort.FortData.Parser, new[]{ "Id", "LastModifiedTimestampMs", "Latitude", "Longitude", "Enabled", "Type", "OwnedByTeam", "GuardPokemonId", "GuardPokemonCp", "GymPoints", "IsInBattle", "ActiveFortModifier", "LureInfo", "CooldownCompleteTimestampMs", "Sponsor", "RenderingType" }, null, null, null)
           }));

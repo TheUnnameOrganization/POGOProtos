@@ -24,8 +24,8 @@ namespace POGOProtos.Networking.Responses {
           string.Concat(
             "CjxQT0dPUHJvdG9zL05ldHdvcmtpbmcvUmVzcG9uc2VzL0xldmVsVXBSZXdh",
             "cmRzUmVzcG9uc2UucHJvdG8SH1BPR09Qcm90b3MuTmV0d29ya2luZy5SZXNw",
-            "b25zZXMaKVBPR09Qcm90b3MvSW52ZW50b3J5L0l0ZW0vSXRlbUF3YXJkLnBy",
-            "b3RvGiZQT0dPUHJvdG9zL0ludmVudG9yeS9JdGVtL0l0ZW1JZC5wcm90byKX",
+            "b25zZXMaJlBPR09Qcm90b3MvSW52ZW50b3J5L0l0ZW0vSXRlbUlkLnByb3Rv",
+            "GilQT0dPUHJvdG9zL0ludmVudG9yeS9JdGVtL0l0ZW1Bd2FyZC5wcm90byKX",
             "AgoWTGV2ZWxVcFJld2FyZHNSZXNwb25zZRJOCgZyZXN1bHQYASABKA4yPi5Q",
             "T0dPUHJvdG9zLk5ldHdvcmtpbmcuUmVzcG9uc2VzLkxldmVsVXBSZXdhcmRz",
             "UmVzcG9uc2UuUmVzdWx0EjsKDWl0ZW1zX2F3YXJkZWQYAiADKAsyJC5QT0dP",
@@ -34,7 +34,7 @@ namespace POGOProtos.Networking.Responses {
             "IjUKBlJlc3VsdBIJCgVVTlNFVBAAEgsKB1NVQ0NFU1MQARITCg9BV0FSREVE",
             "X0FMUkVBRFkQAmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::POGOProtos.Inventory.Item.ItemAwardReflection.Descriptor, global::POGOProtos.Inventory.Item.ItemIdReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::POGOProtos.Inventory.Item.ItemIdReflection.Descriptor, global::POGOProtos.Inventory.Item.ItemAwardReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Responses.LevelUpRewardsResponse), global::POGOProtos.Networking.Responses.LevelUpRewardsResponse.Parser, new[]{ "Result", "ItemsAwarded", "ItemsUnlocked" }, null, new[]{ typeof(global::POGOProtos.Networking.Responses.LevelUpRewardsResponse.Types.Result) }, null)
           }));

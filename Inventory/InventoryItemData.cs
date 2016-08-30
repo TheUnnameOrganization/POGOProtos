@@ -23,16 +23,16 @@ namespace POGOProtos.Inventory {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CixQT0dPUHJvdG9zL0ludmVudG9yeS9JbnZlbnRvcnlJdGVtRGF0YS5wcm90",
-            "bxIUUE9HT1Byb3Rvcy5JbnZlbnRvcnkaKVBPR09Qcm90b3MvRGF0YS9QbGF5",
-            "ZXIvUGxheWVyQ2FtZXJhLnByb3RvGitQT0dPUHJvdG9zL0RhdGEvUGxheWVy",
-            "L1BsYXllckN1cnJlbmN5LnByb3RvGihQT0dPUHJvdG9zL0RhdGEvUGxheWVy",
-            "L1BsYXllclN0YXRzLnByb3RvGiJQT0dPUHJvdG9zL0RhdGEvUG9rZWRleEVu",
-            "dHJ5LnByb3RvGiFQT0dPUHJvdG9zL0RhdGEvUG9rZW1vbkRhdGEucHJvdG8a",
-            "J1BPR09Qcm90b3MvSW52ZW50b3J5L0FwcGxpZWRJdGVtcy5wcm90bxogUE9H",
-            "T1Byb3Rvcy9JbnZlbnRvcnkvQ2FuZHkucHJvdG8aKFBPR09Qcm90b3MvSW52",
-            "ZW50b3J5L0VnZ0luY3ViYXRvcnMucHJvdG8aLFBPR09Qcm90b3MvSW52ZW50",
-            "b3J5L0ludmVudG9yeVVwZ3JhZGVzLnByb3RvGihQT0dPUHJvdG9zL0ludmVu",
-            "dG9yeS9JdGVtL0l0ZW1EYXRhLnByb3RvItIEChFJbnZlbnRvcnlJdGVtRGF0",
+            "bxIUUE9HT1Byb3Rvcy5JbnZlbnRvcnkaKFBPR09Qcm90b3MvSW52ZW50b3J5",
+            "L0l0ZW0vSXRlbURhdGEucHJvdG8aJ1BPR09Qcm90b3MvSW52ZW50b3J5L0Fw",
+            "cGxpZWRJdGVtcy5wcm90bxooUE9HT1Byb3Rvcy9JbnZlbnRvcnkvRWdnSW5j",
+            "dWJhdG9ycy5wcm90bxogUE9HT1Byb3Rvcy9JbnZlbnRvcnkvQ2FuZHkucHJv",
+            "dG8aLFBPR09Qcm90b3MvSW52ZW50b3J5L0ludmVudG9yeVVwZ3JhZGVzLnBy",
+            "b3RvGiFQT0dPUHJvdG9zL0RhdGEvUG9rZW1vbkRhdGEucHJvdG8aIlBPR09Q",
+            "cm90b3MvRGF0YS9Qb2tlZGV4RW50cnkucHJvdG8aKFBPR09Qcm90b3MvRGF0",
+            "YS9QbGF5ZXIvUGxheWVyU3RhdHMucHJvdG8aK1BPR09Qcm90b3MvRGF0YS9Q",
+            "bGF5ZXIvUGxheWVyQ3VycmVuY3kucHJvdG8aKVBPR09Qcm90b3MvRGF0YS9Q",
+            "bGF5ZXIvUGxheWVyQ2FtZXJhLnByb3RvItIEChFJbnZlbnRvcnlJdGVtRGF0",
             "YRIyCgxwb2tlbW9uX2RhdGEYASABKAsyHC5QT0dPUHJvdG9zLkRhdGEuUG9r",
             "ZW1vbkRhdGESMQoEaXRlbRgCIAEoCzIjLlBPR09Qcm90b3MuSW52ZW50b3J5",
             "Lkl0ZW0uSXRlbURhdGESNAoNcG9rZWRleF9lbnRyeRgDIAEoCzIdLlBPR09Q",
@@ -47,7 +47,7 @@ namespace POGOProtos.Inventory {
             "MiMuUE9HT1Byb3Rvcy5JbnZlbnRvcnkuRWdnSW5jdWJhdG9ycxIqCgVjYW5k",
             "eRgKIAEoCzIbLlBPR09Qcm90b3MuSW52ZW50b3J5LkNhbmR5YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::POGOProtos.Data.Player.PlayerCameraReflection.Descriptor, global::POGOProtos.Data.Player.PlayerCurrencyReflection.Descriptor, global::POGOProtos.Data.Player.PlayerStatsReflection.Descriptor, global::POGOProtos.Data.PokedexEntryReflection.Descriptor, global::POGOProtos.Data.PokemonDataReflection.Descriptor, global::POGOProtos.Inventory.AppliedItemsReflection.Descriptor, global::POGOProtos.Inventory.CandyReflection.Descriptor, global::POGOProtos.Inventory.EggIncubatorsReflection.Descriptor, global::POGOProtos.Inventory.InventoryUpgradesReflection.Descriptor, global::POGOProtos.Inventory.Item.ItemDataReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::POGOProtos.Inventory.Item.ItemDataReflection.Descriptor, global::POGOProtos.Inventory.AppliedItemsReflection.Descriptor, global::POGOProtos.Inventory.EggIncubatorsReflection.Descriptor, global::POGOProtos.Inventory.CandyReflection.Descriptor, global::POGOProtos.Inventory.InventoryUpgradesReflection.Descriptor, global::POGOProtos.Data.PokemonDataReflection.Descriptor, global::POGOProtos.Data.PokedexEntryReflection.Descriptor, global::POGOProtos.Data.Player.PlayerStatsReflection.Descriptor, global::POGOProtos.Data.Player.PlayerCurrencyReflection.Descriptor, global::POGOProtos.Data.Player.PlayerCameraReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Inventory.InventoryItemData), global::POGOProtos.Inventory.InventoryItemData.Parser, new[]{ "PokemonData", "Item", "PokedexEntry", "PlayerStats", "PlayerCurrency", "PlayerCamera", "InventoryUpgrades", "AppliedItems", "EggIncubators", "Candy" }, null, null, null)
           }));

@@ -24,8 +24,8 @@ namespace POGOProtos.Networking.Responses {
           string.Concat(
             "Cj9QT0dPUHJvdG9zL05ldHdvcmtpbmcvUmVzcG9uc2VzL0ZvcnREZXBsb3lQ",
             "b2tlbW9uUmVzcG9uc2UucHJvdG8SH1BPR09Qcm90b3MuTmV0d29ya2luZy5S",
-            "ZXNwb25zZXMaIlBPR09Qcm90b3MvRGF0YS9HeW0vR3ltU3RhdGUucHJvdG8a",
-            "IVBPR09Qcm90b3MvRGF0YS9Qb2tlbW9uRGF0YS5wcm90bxo5UE9HT1Byb3Rv",
+            "ZXNwb25zZXMaIVBPR09Qcm90b3MvRGF0YS9Qb2tlbW9uRGF0YS5wcm90bxoi",
+            "UE9HT1Byb3Rvcy9EYXRhL0d5bS9HeW1TdGF0ZS5wcm90bxo5UE9HT1Byb3Rv",
             "cy9OZXR3b3JraW5nL1Jlc3BvbnNlcy9Gb3J0RGV0YWlsc1Jlc3BvbnNlLnBy",
             "b3RvIsQEChlGb3J0RGVwbG95UG9rZW1vblJlc3BvbnNlElEKBnJlc3VsdBgB",
             "IAEoDjJBLlBPR09Qcm90b3MuTmV0d29ya2luZy5SZXNwb25zZXMuRm9ydERl",
@@ -42,7 +42,7 @@ namespace POGOProtos.Networking.Responses {
             "T1dfTUlOSU1VTV9MRVZFTBAIEhoKFkVSUk9SX1BPS0VNT05fSVNfQlVERFkQ",
             "CWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::POGOProtos.Data.Gym.GymStateReflection.Descriptor, global::POGOProtos.Data.PokemonDataReflection.Descriptor, global::POGOProtos.Networking.Responses.FortDetailsResponseReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::POGOProtos.Data.PokemonDataReflection.Descriptor, global::POGOProtos.Data.Gym.GymStateReflection.Descriptor, global::POGOProtos.Networking.Responses.FortDetailsResponseReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Responses.FortDeployPokemonResponse), global::POGOProtos.Networking.Responses.FortDeployPokemonResponse.Parser, new[]{ "Result", "FortDetails", "PokemonData", "GymState" }, null, new[]{ typeof(global::POGOProtos.Networking.Responses.FortDeployPokemonResponse.Types.Result) }, null)
           }));
