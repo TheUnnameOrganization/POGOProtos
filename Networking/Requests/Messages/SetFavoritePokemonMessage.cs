@@ -72,12 +72,12 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     /// <summary>Field number for the "pokemon_id" field.</summary>
     public const int PokemonIdFieldNumber = 1;
-    private long pokemonId_;
+    private ulong pokemonId_;
     /// <summary>
     ///  Do not change https://github.com/AeonLucid/POGOProtos/pull/126
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public long PokemonId {
+    public ulong PokemonId {
       get { return pokemonId_; }
       set {
         pokemonId_ = value;
@@ -130,7 +130,7 @@ namespace POGOProtos.Networking.Requests.Messages {
     public void WriteTo(pb::CodedOutputStream output) {
       if (PokemonId != 0L) {
         output.WriteRawTag(8);
-        output.WriteInt64(PokemonId);
+        output.WriteUInt64(PokemonId);
       }
       if (IsFavorite != false) {
         output.WriteRawTag(16);
@@ -142,7 +142,7 @@ namespace POGOProtos.Networking.Requests.Messages {
     public int CalculateSize() {
       int size = 0;
       if (PokemonId != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(PokemonId);
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(PokemonId);
       }
       if (IsFavorite != false) {
         size += 1 + 1;
@@ -172,7 +172,7 @@ namespace POGOProtos.Networking.Requests.Messages {
             input.SkipLastField();
             break;
           case 8: {
-            PokemonId = input.ReadInt64();
+            PokemonId = input.ReadUInt64();
             break;
           }
           case 16: {

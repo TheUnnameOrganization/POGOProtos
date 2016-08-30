@@ -23,14 +23,14 @@ namespace POGOProtos.Data {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiBQT0dPUHJvdG9zL0RhdGEvUGxheWVyRGF0YS5wcm90bxIPUE9HT1Byb3Rv",
-            "cy5EYXRhGiRQT0dPUHJvdG9zL0VudW1zL1R1dG9yaWFsU3RhdGUucHJvdG8a",
-            "KVBPR09Qcm90b3MvRGF0YS9QbGF5ZXIvUGxheWVyQXZhdGFyLnByb3RvGidQ",
-            "T0dPUHJvdG9zL0RhdGEvUGxheWVyL0RhaWx5Qm9udXMucHJvdG8aKlBPR09Q",
-            "cm90b3MvRGF0YS9QbGF5ZXIvRXF1aXBwZWRCYWRnZS5wcm90bxosUE9HT1By",
-            "b3Rvcy9EYXRhL1BsYXllci9Db250YWN0U2V0dGluZ3MucHJvdG8aJVBPR09Q",
-            "cm90b3MvRGF0YS9QbGF5ZXIvQ3VycmVuY3kucHJvdG8aIlBPR09Qcm90b3Mv",
-            "RGF0YS9CdWRkeVBva2Vtb24ucHJvdG8aIFBPR09Qcm90b3MvRW51bXMvVGVh",
-            "bUNvbG9yLnByb3RvItwECgpQbGF5ZXJEYXRhEh0KFWNyZWF0aW9uX3RpbWVz",
+            "cy5EYXRhGiJQT0dPUHJvdG9zL0RhdGEvQnVkZHlQb2tlbW9uLnByb3RvGixQ",
+            "T0dPUHJvdG9zL0RhdGEvUGxheWVyL0NvbnRhY3RTZXR0aW5ncy5wcm90bxol",
+            "UE9HT1Byb3Rvcy9EYXRhL1BsYXllci9DdXJyZW5jeS5wcm90bxonUE9HT1By",
+            "b3Rvcy9EYXRhL1BsYXllci9EYWlseUJvbnVzLnByb3RvGipQT0dPUHJvdG9z",
+            "L0RhdGEvUGxheWVyL0VxdWlwcGVkQmFkZ2UucHJvdG8aKVBPR09Qcm90b3Mv",
+            "RGF0YS9QbGF5ZXIvUGxheWVyQXZhdGFyLnByb3RvGiBQT0dPUHJvdG9zL0Vu",
+            "dW1zL1RlYW1Db2xvci5wcm90bxokUE9HT1Byb3Rvcy9FbnVtcy9UdXRvcmlh",
+            "bFN0YXRlLnByb3RvItwECgpQbGF5ZXJEYXRhEh0KFWNyZWF0aW9uX3RpbWVz",
             "dGFtcF9tcxgBIAEoAxIQCgh1c2VybmFtZRgCIAEoCRIpCgR0ZWFtGAUgASgO",
             "MhsuUE9HT1Byb3Rvcy5FbnVtcy5UZWFtQ29sb3ISOwoOdHV0b3JpYWxfc3Rh",
             "dGUYByADKA4yHy5QT0dPUHJvdG9zLkVudW1zLlR1dG9yaWFsU3RhdGVCAhAB",
@@ -45,7 +45,7 @@ namespace POGOProtos.Data {
             "aW5nX2NvZGVuYW1lX2NsYWltcxgPIAEoBRI0Cg1idWRkeV9wb2tlbW9uGBAg",
             "ASgLMh0uUE9HT1Byb3Rvcy5EYXRhLkJ1ZGR5UG9rZW1vbmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::POGOProtos.Enums.TutorialStateReflection.Descriptor, global::POGOProtos.Data.Player.PlayerAvatarReflection.Descriptor, global::POGOProtos.Data.Player.DailyBonusReflection.Descriptor, global::POGOProtos.Data.Player.EquippedBadgeReflection.Descriptor, global::POGOProtos.Data.Player.ContactSettingsReflection.Descriptor, global::POGOProtos.Data.Player.CurrencyReflection.Descriptor, global::POGOProtos.Data.BuddyPokemonReflection.Descriptor, global::POGOProtos.Enums.TeamColorReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::POGOProtos.Data.BuddyPokemonReflection.Descriptor, global::POGOProtos.Data.Player.ContactSettingsReflection.Descriptor, global::POGOProtos.Data.Player.CurrencyReflection.Descriptor, global::POGOProtos.Data.Player.DailyBonusReflection.Descriptor, global::POGOProtos.Data.Player.EquippedBadgeReflection.Descriptor, global::POGOProtos.Data.Player.PlayerAvatarReflection.Descriptor, global::POGOProtos.Enums.TeamColorReflection.Descriptor, global::POGOProtos.Enums.TutorialStateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Data.PlayerData), global::POGOProtos.Data.PlayerData.Parser, new[]{ "CreationTimestampMs", "Username", "Team", "TutorialState", "Avatar", "MaxPokemonStorage", "MaxItemStorage", "DailyBonus", "EquippedBadge", "ContactSettings", "Currencies", "RemainingCodenameClaims", "BuddyPokemon" }, null, null, null)
           }));

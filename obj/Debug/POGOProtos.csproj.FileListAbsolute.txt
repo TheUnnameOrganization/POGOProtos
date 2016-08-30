@@ -1,0 +1,6 @@
+C:\Users\Airy\Documents\GitHub\RocketBot\RocketBot-2.0.1-Beta-src\POGOProtos\bin\Debug\POGOProtos.dll
+C:\Users\Airy\Documents\GitHub\RocketBot\RocketBot-2.0.1-Beta-src\POGOProtos\bin\Debug\POGOProtos.pdb
+C:\Users\Airy\Documents\GitHub\RocketBot\RocketBot-2.0.1-Beta-src\POGOProtos\bin\Debug\Google.Protobuf.dll
+C:\Users\Airy\Documents\GitHub\RocketBot\RocketBot-2.0.1-Beta-src\POGOProtos\bin\Debug\Google.Protobuf.xml
+C:\Users\Airy\Documents\GitHub\RocketBot\RocketBot-2.0.1-Beta-src\POGOProtos\obj\Debug\POGOProtos.dll
+C:\Users\Airy\Documents\GitHub\RocketBot\RocketBot-2.0.1-Beta-src\POGOProtos\obj\Debug\POGOProtos.pdb
