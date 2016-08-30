@@ -24,8 +24,8 @@ namespace POGOProtos.Settings.Master {
           string.Concat(
             "Ci1QT0dPUHJvdG9zL1NldHRpbmdzL01hc3Rlci9Nb3ZlU2V0dGluZ3MucHJv",
             "dG8SGlBPR09Qcm90b3MuU2V0dGluZ3MuTWFzdGVyGiJQT0dPUHJvdG9zL0Vu",
-            "dW1zL1Bva2Vtb25UeXBlLnByb3RvGiJQT0dPUHJvdG9zL0VudW1zL1Bva2Vt",
-            "b25Nb3ZlLnByb3RvIrEDCgxNb3ZlU2V0dGluZ3MSMgoLbW92ZW1lbnRfaWQY",
+            "dW1zL1Bva2Vtb25Nb3ZlLnByb3RvGiJQT0dPUHJvdG9zL0VudW1zL1Bva2Vt",
+            "b25UeXBlLnByb3RvIrEDCgxNb3ZlU2V0dGluZ3MSMgoLbW92ZW1lbnRfaWQY",
             "ASABKA4yHS5QT0dPUHJvdG9zLkVudW1zLlBva2Vtb25Nb3ZlEhQKDGFuaW1h",
             "dGlvbl9pZBgCIAEoBRIzCgxwb2tlbW9uX3R5cGUYAyABKA4yHS5QT0dPUHJv",
             "dG9zLkVudW1zLlBva2Vtb25UeXBlEg0KBXBvd2VyGAQgASgCEhcKD2FjY3Vy",
@@ -37,7 +37,7 @@ namespace POGOProtos.Settings.Master {
             "ZV93aW5kb3dfZW5kX21zGA4gASgFEhQKDGVuZXJneV9kZWx0YRgPIAEoBWIG",
             "cHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::POGOProtos.Enums.PokemonTypeReflection.Descriptor, global::POGOProtos.Enums.PokemonMoveReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::POGOProtos.Enums.PokemonMoveReflection.Descriptor, global::POGOProtos.Enums.PokemonTypeReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Settings.Master.MoveSettings), global::POGOProtos.Settings.Master.MoveSettings.Parser, new[]{ "MovementId", "AnimationId", "PokemonType", "Power", "AccuracyChance", "CriticalChance", "HealScalar", "StaminaLossScalar", "TrainerLevelMin", "TrainerLevelMax", "VfxName", "DurationMs", "DamageWindowStartMs", "DamageWindowEndMs", "EnergyDelta" }, null, null, null)
           }));

@@ -23,10 +23,10 @@ namespace POGOProtos.Data.Battle {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiZQT0dPUHJvdG9zL0RhdGEvQmF0dGxlL0JhdHRsZUxvZy5wcm90bxIWUE9H",
-            "T1Byb3Rvcy5EYXRhLkJhdHRsZRooUE9HT1Byb3Rvcy9EYXRhL0JhdHRsZS9C",
-            "YXR0bGVTdGF0ZS5wcm90bxonUE9HT1Byb3Rvcy9EYXRhL0JhdHRsZS9CYXR0",
-            "bGVUeXBlLnByb3RvGilQT0dPUHJvdG9zL0RhdGEvQmF0dGxlL0JhdHRsZUFj",
-            "dGlvbi5wcm90byKNAgoJQmF0dGxlTG9nEjIKBXN0YXRlGAEgASgOMiMuUE9H",
+            "T1Byb3Rvcy5EYXRhLkJhdHRsZRopUE9HT1Byb3Rvcy9EYXRhL0JhdHRsZS9C",
+            "YXR0bGVBY3Rpb24ucHJvdG8aKFBPR09Qcm90b3MvRGF0YS9CYXR0bGUvQmF0",
+            "dGxlU3RhdGUucHJvdG8aJ1BPR09Qcm90b3MvRGF0YS9CYXR0bGUvQmF0dGxl",
+            "VHlwZS5wcm90byKNAgoJQmF0dGxlTG9nEjIKBXN0YXRlGAEgASgOMiMuUE9H",
             "T1Byb3Rvcy5EYXRhLkJhdHRsZS5CYXR0bGVTdGF0ZRI3CgtiYXR0bGVfdHlw",
             "ZRgCIAEoDjIiLlBPR09Qcm90b3MuRGF0YS5CYXR0bGUuQmF0dGxlVHlwZRIR",
             "CglzZXJ2ZXJfbXMYAyABKAMSPAoOYmF0dGxlX2FjdGlvbnMYBCADKAsyJC5Q",
@@ -34,7 +34,7 @@ namespace POGOProtos.Data.Battle {
             "c3RhcnRfdGltZXN0YW1wX21zGAUgASgDEh8KF2JhdHRsZV9lbmRfdGltZXN0",
             "YW1wX21zGAYgASgDYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::POGOProtos.Data.Battle.BattleStateReflection.Descriptor, global::POGOProtos.Data.Battle.BattleTypeReflection.Descriptor, global::POGOProtos.Data.Battle.BattleActionReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::POGOProtos.Data.Battle.BattleActionReflection.Descriptor, global::POGOProtos.Data.Battle.BattleStateReflection.Descriptor, global::POGOProtos.Data.Battle.BattleTypeReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Data.Battle.BattleLog), global::POGOProtos.Data.Battle.BattleLog.Parser, new[]{ "State", "BattleType", "ServerMs", "BattleActions", "BattleStartTimestampMs", "BattleEndTimestampMs" }, null, null, null)
           }));
