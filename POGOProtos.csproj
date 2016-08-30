@@ -50,7 +50,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Google.Protobuf, Version=3.0.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
-      <HintPath>$(SolutionDir)\packages\Google.Protobuf.3.0.0-beta4\lib\net45\Google.Protobuf.dll</HintPath>
+      <HintPath>..\packages\Google.Protobuf.3.0.0\lib\net45\Google.Protobuf.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -81,7 +81,7 @@
     <Compile Include="Data\Logs\ActionLogEntry.cs" />
     <Compile Include="Data\Logs\CatchPokemonLogEntry.cs" />
     <Compile Include="Data\Logs\FortSearchLogEntry.cs" />
-	<Compile Include="Data\Logs\BuddyPokemonLogEntry.cs" />
+    <Compile Include="Data\Logs\BuddyPokemonLogEntry.cs" />
     <Compile Include="Data\PlayerBadge.cs" />
     <Compile Include="Data\PlayerData.cs" />
     <Compile Include="Data\Player\ContactSettings.cs" />
@@ -144,17 +144,24 @@
     <Compile Include="Networking\Envelopes\AuthTicket.cs" />
     <Compile Include="Networking\Envelopes\RequestEnvelope.cs" />
     <Compile Include="Networking\Envelopes\ResponseEnvelope.cs" />
-    <Compile Include="Networking\Envelopes\Unknown6.cs" />
-    <Compile Include="Networking\Envelopes\Unknown6Response.cs" />
+    <Compile Include="Networking\Envelopes\SignalAgglomUpdates.cs" />
+    <Compile Include="Networking\Platform\PlatformRequestType.cs" />
+    <Compile Include="Networking\Platform\Responses\BuyItemAndroidResponse.cs" />
+    <Compile Include="Networking\Platform\Responses\BuyItemPokeCoinsResponse.cs" />
+    <Compile Include="Networking\Platform\Responses\GetStoreItemsResponse.cs" />
+    <Compile Include="Networking\Platform\Responses\SendEncryptedSignatureResponse.cs" />	
+    <Compile Include="Networking\Platform\Requests\BuyItemAndroidRequest.cs" />
+	<Compile Include="Networking\Platform\Requests\BuyItemPokeCoinsRequest.cs" />
+	<Compile Include="Networking\Platform\Requests\SendEncryptedSignatureRequest.cs" />
     <Compile Include="Networking\Requests\Messages\AddFortModifierMessage.cs" />
     <Compile Include="Networking\Requests\Messages\AttackGymMessage.cs" />
     <Compile Include="Networking\Requests\Messages\CatchPokemonMessage.cs" />
     <Compile Include="Networking\Requests\Messages\CheckAwardedBadgesMessage.cs" />
     <Compile Include="Networking\Requests\Messages\CheckCodenameAvailableMessage.cs" />
-	<Compile Include="Networking\Requests\Messages\CheckChallenge.cs" />
-	<Compile Include="Networking\Requests\Messages\GetBuddyWalked.cs" />
-	<Compile Include="Networking\Requests\Messages\SetBuddyPokemon.cs" />
-	<Compile Include="Networking\Requests\Messages\VerifyChallenge.cs" />
+    <Compile Include="Networking\Requests\Messages\CheckChallenge.cs" />
+    <Compile Include="Networking\Requests\Messages\GetBuddyWalked.cs" />
+    <Compile Include="Networking\Requests\Messages\SetBuddyPokemon.cs" />
+    <Compile Include="Networking\Requests\Messages\VerifyChallenge.cs" />
     <Compile Include="Networking\Requests\Messages\ClaimCodenameMessage.cs" />
     <Compile Include="Networking\Requests\Messages\CollectDailyBonusMessage.cs" />
     <Compile Include="Networking\Requests\Messages\CollectDailyDefenderBonusMessage.cs" />
@@ -208,10 +215,10 @@
     <Compile Include="Networking\Responses\AttackGymResponse.cs" />
     <Compile Include="Networking\Responses\CatchPokemonResponse.cs" />
     <Compile Include="Networking\Responses\CheckAwardedBadgesResponse.cs" />
-	<Compile Include="Networking\Responses\CheckChallengeResponse.cs" />
-	<Compile Include="Networking\Responses\SetBuddyPokemonResponse.cs" />
-	<Compile Include="Networking\Responses\VerifyChallengeResponse.cs" />
-	<Compile Include="Networking\Responses\GetBuddyWalkedResponse.cs" />
+    <Compile Include="Networking\Responses\CheckChallengeResponse.cs" />
+    <Compile Include="Networking\Responses\SetBuddyPokemonResponse.cs" />
+    <Compile Include="Networking\Responses\VerifyChallengeResponse.cs" />
+    <Compile Include="Networking\Responses\GetBuddyWalkedResponse.cs" />
     <Compile Include="Networking\Responses\CheckCodenameAvailableResponse.cs" />
     <Compile Include="Networking\Responses\ClaimCodenameResponse.cs" />
     <Compile Include="Networking\Responses\CollectDailyBonusResponse.cs" />
@@ -260,10 +267,9 @@
     <Compile Include="Networking\Responses\UseItemPotionResponse.cs" />
     <Compile Include="Networking\Responses\UseItemReviveResponse.cs" />
     <Compile Include="Networking\Responses\UseItemXpBoostResponse.cs" />
-	<Compile Include="Networking\Signature.cs" />
     <Compile Include="Settings\DownloadSettingsAction.cs" />
     <Compile Include="Settings\FortSettings.cs" />
-	<Compile Include="Settings\GpsSettings.cs" />
+    <Compile Include="Settings\GpsSettings.cs" />
     <Compile Include="Settings\GlobalSettings.cs" />
     <Compile Include="Settings\InventorySettings.cs" />
     <Compile Include="Settings\LevelSettings.cs" />
@@ -298,7 +304,9 @@
     <Compile Include="Settings\Master\TypeEffectiveSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
