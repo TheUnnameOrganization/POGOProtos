@@ -6,7 +6,7 @@
     <ProjectGuid>{A03A7BB2-4F0B-467B-84B2-9A76E6AAE6FB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
-    <AssemblyName>POGOProtos</AssemblyName>
+    <AssemblyName>POGOProtos-Rocket</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -31,7 +31,7 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <RootNamespace>POGOProtos</RootNamespace>
+    <RootNamespace>POGOProtos_Rocket</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Google.Protobuf, Version=3.1.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
