@@ -27,7 +27,7 @@ namespace POGOProtos.Data.Battle {
             "ZS9CYXR0bGVSZXN1bHRzLnByb3RvGi1QT0dPUHJvdG9zL0RhdGEvQmF0dGxl",
             "L0JhdHRsZUFjdGlvblR5cGUucHJvdG8aLlBPR09Qcm90b3MvRGF0YS9CYXR0",
             "bGUvQmF0dGxlUGFydGljaXBhbnQucHJvdG8igwQKDEJhdHRsZUFjdGlvbhI2",
-            "CgRUeXBlGAEgASgOMiguUE9HT1Byb3Rvcy5EYXRhLkJhdHRsZS5CYXR0bGVB",
+            "CgR0eXBlGAEgASgOMiguUE9HT1Byb3Rvcy5EYXRhLkJhdHRsZS5CYXR0bGVB",
             "Y3Rpb25UeXBlEhcKD2FjdGlvbl9zdGFydF9tcxgCIAEoAxITCgtkdXJhdGlv",
             "bl9tcxgDIAEoBRIUCgxlbmVyZ3lfZGVsdGEYBSABKAUSFgoOYXR0YWNrZXJf",
             "aW5kZXgYBiABKAUSFAoMdGFyZ2V0X2luZGV4GAcgASgFEhkKEWFjdGl2ZV9w",
@@ -93,7 +93,7 @@ namespace POGOProtos.Data.Battle {
       return new BattleAction(this);
     }
 
-    /// <summary>Field number for the "Type" field.</summary>
+    /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 1;
     private global::POGOProtos.Data.Battle.BattleActionType type_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
