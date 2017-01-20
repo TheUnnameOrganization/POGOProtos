@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A03A7BB2-4F0B-467B-84B2-9A76E6AAE6FB}</ProjectGuid>
+    <ProjectGuid>{FED6EC35-C1A9-48D4-B662-0265CE0A4B34}</ProjectGuid>
     <OutputType>Library</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
     <AssemblyName>POGOProtos</AssemblyName>
@@ -53,14 +53,22 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Google.Protobuf, Version=3.1.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
-      <HintPath>$(SolutionDir)\packages\Google.Protobuf.3.1.0\lib\net45\Google.Protobuf.dll</HintPath>
+      <HintPath>packages\Google.Protobuf.3.1.0\lib\net45\Google.Protobuf.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.InteropServices.RuntimeInformation.4.0.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
@@ -110,8 +118,10 @@
     <Compile Include="Enums\BadgeType.g.cs" />
     <Compile Include="Enums\CameraInterpolation.g.cs" />
     <Compile Include="Enums\CameraTarget.g.cs" />
+    <Compile Include="Enums\Costume.g.cs" />
     <Compile Include="Enums\EncounterType.g.cs" />
     <Compile Include="Enums\Filter.g.cs" />
+    <Compile Include="Enums\Form.g.cs" />
     <Compile Include="Enums\Gender.g.cs" />
     <Compile Include="Enums\IapItemCategory.g.cs" />
     <Compile Include="Enums\ItemCategory.g.cs" />
@@ -173,6 +183,7 @@
     <Compile Include="Networking\Requests\Messages\AttackGymMessage.g.cs" />
     <Compile Include="Networking\Requests\Messages\CatchPokemonMessage.g.cs" />
     <Compile Include="Networking\Requests\Messages\CheckAwardedBadgesMessage.g.cs" />
+    <Compile Include="Networking\Requests\Messages\CheckChallengeMessage.g.cs" />
     <Compile Include="Networking\Requests\Messages\ClaimCodenameMessage.g.cs" />
     <Compile Include="Networking\Requests\Messages\CollectDailyBonusMessage.g.cs" />
     <Compile Include="Networking\Requests\Messages\CollectDailyDefenderBonusMessage.g.cs" />
@@ -190,6 +201,7 @@
     <Compile Include="Networking\Requests\Messages\FortRecallPokemonMessage.g.cs" />
     <Compile Include="Networking\Requests\Messages\FortSearchMessage.g.cs" />
     <Compile Include="Networking\Requests\Messages\GetAssetDigestMessage.g.cs" />
+    <Compile Include="Networking\Requests\Messages\GetBuddyWalkedMessage.g.cs" />
     <Compile Include="Networking\Requests\Messages\GetDownloadUrlsMessage.g.cs" />
     <Compile Include="Networking\Requests\Messages\GetGymDetailsMessage.g.cs" />
     <Compile Include="Networking\Requests\Messages\GetHatchedEggsMessage.g.cs" />
@@ -207,7 +219,9 @@
     <Compile Include="Networking\Requests\Messages\RecycleInventoryItemMessage.g.cs" />
     <Compile Include="Networking\Requests\Messages\RegisterBackgroundDeviceMessage.g.cs" />
     <Compile Include="Networking\Requests\Messages\ReleasePokemonMessage.g.cs" />
+    <Compile Include="Networking\Requests\Messages\SetAvatarItemAsViewedMessage.g.cs" />
     <Compile Include="Networking\Requests\Messages\SetAvatarMessage.g.cs" />
+    <Compile Include="Networking\Requests\Messages\SetBuddyPokemonMessage.g.cs" />
     <Compile Include="Networking\Requests\Messages\SetContactSettingsMessage.g.cs" />
     <Compile Include="Networking\Requests\Messages\SetFavoritePokemonMessage.g.cs" />
     <Compile Include="Networking\Requests\Messages\SetPlayerTeamMessage.g.cs" />
@@ -221,6 +235,7 @@
     <Compile Include="Networking\Requests\Messages\UseItemPotionMessage.g.cs" />
     <Compile Include="Networking\Requests\Messages\UseItemReviveMessage.g.cs" />
     <Compile Include="Networking\Requests\Messages\UseItemXpBoostMessage.g.cs" />
+    <Compile Include="Networking\Requests\Messages\VerifyChallengeMessage.g.cs" />
     <Compile Include="Networking\Requests\Request.g.cs" />
     <Compile Include="Networking\Requests\RequestType.g.cs" />
     <Compile Include="Networking\Responses\AddFortModifierResponse.g.cs" />
@@ -264,6 +279,7 @@
     <Compile Include="Networking\Responses\RecycleInventoryItemResponse.g.cs" />
     <Compile Include="Networking\Responses\RegisterBackgroundDeviceResponse.g.cs" />
     <Compile Include="Networking\Responses\ReleasePokemonResponse.g.cs" />
+    <Compile Include="Networking\Responses\SetAvatarItemAsViewedResponse.g.cs" />
     <Compile Include="Networking\Responses\SetAvatarResponse.g.cs" />
     <Compile Include="Networking\Responses\SetBuddyPokemonResponse.g.cs" />
     <Compile Include="Networking\Responses\SetContactSettingsResponse.g.cs" />
@@ -295,6 +311,7 @@
     <Compile Include="Settings\Master\CameraSettings.g.cs" />
     <Compile Include="Settings\Master\EncounterSettings.g.cs" />
     <Compile Include="Settings\Master\EquippedBadgeSettings.g.cs" />
+    <Compile Include="Settings\Master\FormSettings.g.cs" />
     <Compile Include="Settings\Master\GymBattleSettings.g.cs" />
     <Compile Include="Settings\Master\GymLevelSettings.g.cs" />
     <Compile Include="Settings\Master\IapItemDisplay.g.cs" />
@@ -317,16 +334,17 @@
     <Compile Include="Settings\Master\PokemonUpgradeSettings.g.cs" />
     <Compile Include="Settings\Master\Pokemon\CameraAttributes.g.cs" />
     <Compile Include="Settings\Master\Pokemon\EncounterAttributes.g.cs" />
+    <Compile Include="Settings\Master\Pokemon\EvolutionBranch.g.cs" />
     <Compile Include="Settings\Master\Pokemon\StatsAttributes.g.cs" />
     <Compile Include="Settings\Master\QuestSettings.g.cs" />
     <Compile Include="Settings\Master\Quest\DailyQuestSettings.g.cs" />
     <Compile Include="Settings\Master\TypeEffectiveSettings.g.cs" />
+    <Compile Include="Settings\NewsSettings.g.cs" />
     <Compile Include="Settings\SfidaSettings.g.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>
     <VisualStudio AllowExistingFolder="true" />
